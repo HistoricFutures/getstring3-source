@@ -1,0 +1,31 @@
+---
+layout: default
+title:  "Security"
+nextText: "How much does String3 cost?"
+nextLink: "/pricing"
+---
+<div class="standard-intro">
+	<h1>{{ page.title }}</h1>
+	<p class="large">We take the security of your data very seriously in String3. This means that we never share your information with others, even in your own supply network, without your permission.</p>
+</div>
+
+<div class="standard">
+	<h2>Your information is never shared without your permission</h2>
+	<p>We know that in the marketplace, sharing potentially commercially sensitive information is rarely something that you want to do. That’s why we make sure that even in the reports that people asking questions about their supply chains receive, everyone is anonymous by default. The organisations looking for answers get the information they need without having to know the details of organisations in their supply chain.</p>
+</div>
+
+<div class="small-left">
+
+  		<img src="/assets/img/ISO.svg" alt="ISO 27001 logo">
+
+</div>
+
+<div class="standard-right">
+	<h2>Certified security</h2>
+	<p>We are delighted to have achieved formal certification for the ISO 27001 Information Security Management Systems standard. This certification demonstrates our commitment not only to the security and control of our customers’ data, but also our serious commitment to information security and safety of client data to our growing global customer base.</p>
+</div>
+
+<div class="standard register">
+	{% capture ctasecurity %}{% include content/register-ctas/security.markdown %}{% endcapture %}
+			{{ ctasecurity | markdownify }}
+</div>

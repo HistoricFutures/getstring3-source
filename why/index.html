@@ -1,0 +1,42 @@
+---
+layout: default
+title:  "Why choose String3?"
+slug: why
+nextText: "Which materials will String3 work for?"
+nextLink: "/materials"
+---
+<div class="why">
+	<div class="intro-why">
+<div class="standard-intro ">
+
+		<h1>{{ page.title }}</h1>
+
+</div>
+</div>
+
+{% assign sections = site.why | sort: 'order' %}
+
+
+
+<ol class="reason-section-holder">
+{% for section in sections %}
+<li id="{{ section.name }}" class="{{ section.name }} reason-section">
+
+	<div id="reason{{ section.order }}" class="reason-section-inner">
+		<div class="number-holder">
+	<p class="reason-number">Reason #{{ forloop.index }}</p>
+</div>
+	<div class="standard-holder">
+		<h2>{{ section.title }}</h2>
+	</div>
+	{{ section.content }}
+	{% unless forloop.last %}
+	<div class="next-holder">
+		<a href="#reason{{ forloop.index | plus:'1' }}" class="down-arrow">Next section</a>
+	</div>
+	{% endunless %}
+</div>
+</li>
+{% endfor %}
+</ol>
+</div>
