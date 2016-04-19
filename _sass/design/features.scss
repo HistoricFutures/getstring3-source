@@ -58,6 +58,8 @@
   text-align:center;
   @include padding-top($a-scale-4);
   @include padding-bottom($a-scale-4);
+  position:relative;
+  z-index:10;
 }
 
 @include gs-media(s,max){
@@ -119,14 +121,16 @@
 }
 
 .feature-section--2, .feature-section--4 {
-  background:$off-white;
   @include gs-span(l,all);
   position:relative;
-  z-index:-10;
+  z-index:0;
   @include padding-top($a-scale-4);
   @include margin-top(-1 * $a-scale-4);
   @include padding-bottom($a-scale-4);
   @include margin-bottom(-1 * $a-scale-4);
+  .feature-section__inner {
+    z-index:10;
+  }
 }
 
 .feature-section--3 {
