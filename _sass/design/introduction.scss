@@ -625,11 +625,11 @@ $chain3-point3-Y:$conflict-minerals-Y;
 
 // Set up timings
 
-$increment: 1s;
+$increment: 0.8s;
 $duration: 0.75s;
 $long-duration: 1.5s;
-$extra-long-duration: 3s;
-$speed-up: 0.8; // gradually reduce increments
+$extra-long-duration: 2s;
+$speed-up: 0.7; // gradually reduce increments
 
 $order1: 0.5s;
 $order2: $order1 + $increment;
@@ -646,7 +646,7 @@ $order12: ($order11 + $increment) * $speed-up;
 $order13: ($order12 + $increment) * $speed-up;
 
 // round B
-$Border1: $order13 + $extra-long-duration;
+$Border1: $order13 + $long-duration;
 $Border2: $Border1 + $duration;
 $Border3: $Border2 + $duration;
 $Border4: $Border3 + $duration;
@@ -829,7 +829,7 @@ $Eorder4: $Eorder3 + $duration;
       @include fadein($long-duration);
       @include animationdelay($order11);
     }
-    .logo-holder {
+    .logo-holder { // logo
       opacity:0;
       @include fadein($extra-long-duration);
       @include animationdelay($order13);
