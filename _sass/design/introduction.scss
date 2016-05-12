@@ -842,16 +842,16 @@ $Eorder4: $Eorder3 + $duration;
     .banner {
       .strap-holder {
         @include slidedown($long-duration);
-        @include animationdelay($Eorder1);
+        @include animationdelay($Border1);
       }
       .button-holder {
         @include slidedown($long-duration);
-        @include animationdelay($Eorder2);
+        @include animationdelay($Border2);
       }
     }
     .next-arrow a {
       @include slidedown($long-duration);
-      @include animationdelay($Eorder3);
+      @include animationdelay($Border3);
     }
   }
 }
