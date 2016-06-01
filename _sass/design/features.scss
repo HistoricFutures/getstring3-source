@@ -1,15 +1,16 @@
 // design for features padding-left
 .features-intro {
   text-align:center;
-  @include gs-span(l,all);
-  padding-bottom:5%;
-  @include margin-bottom(-1 * $b-scale-5);
+  @include gs-span(l,3,10);
+  @include padding-top($a-scale-4);
+  @include padding-bottom($a-scale-4);
+
   h1 {
     vertical-align:middle;
     z-index:-1000;
     position:relative;
 
-    &:before {
+    /*&:before {
       background: url(#{$img-path}S3-logo-mark--medium.png) top left no-repeat;
       background-size:contain;
       content:"";
@@ -18,7 +19,7 @@
       @include margin-right($a-scale-2);
       display:inline-block;
       vertical-align:middle;
-    }
+    }*/
   }
 }
 
@@ -37,8 +38,9 @@
 
 @include gs-media(s,max){
   .features-intro {
-    padding-bottom:0;
     margin-bottom:0;
+    @include gs-span(s,all);
+    @include gs-pad(s,padinfull);
     h1 {
       position:relative;
       margin-bottom:5%;
@@ -308,6 +310,7 @@
 }
 
 @include gs-media(s,max){
+
   .explained-screenshot {
     @include gs-span(s,all);
     @include gs-pad(s,padinfull);
