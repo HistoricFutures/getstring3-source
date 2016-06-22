@@ -6,7 +6,7 @@ issueIntro: "Many consumers are concerned that the wood they buy causes environm
 issueBody: |
   Many products are wood-based and their supply-chains contain hidden reputational risks: Paper, Viscose, Latex, Furniture or cellophane, for example.
 
-  Both regulations (like EUTR) and voluntary schemes (like FSA) aim to enforce effective and ethical sourcing.
+  Both regulations (like EUTR) and voluntary schemes (like FSC) aim to enforce effective and ethical sourcing.
 
   But first you need to know where your timber comes from. String3 can profile specific products and pinpoint risks.
 solutionIntro: String3 connects the suppliers involved in making and moving your product whilst preserving commercial confidentiality. Questions can then be passed along the supply chain to get you the answers you need.

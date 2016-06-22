@@ -2,6 +2,6 @@
 <p>Why not try String3 for free? You can ask 12 questions about your supply chains per year, completely free.</p>
 <p class="faux-button commit register-button">
 	<a href="https://app.getstring3.com/account/register/">
-		Register for String3
+		Get Started
 	</a>
 </p>
