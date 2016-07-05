@@ -15,11 +15,11 @@
 }
 
 a.s3-logo-mark, a:visited.s3-logo-mark {
-	@include transition(none);
+	@include transition($link-transition);
 	&:hover, &:focus {
 		background:url(#{$img-path}S3-logo-mark--hover.png) center center no-repeat;
 
-		@include transition(none);
+		@include transition($link-transition );
 	}
 }
 

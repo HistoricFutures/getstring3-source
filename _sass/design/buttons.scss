@@ -20,8 +20,8 @@ input[type='submit'], [class*=button] a, [class*=button] a:visited, button, [cla
 	border:1px solid $link-color;
 	@include border-radius(3px);
 	@include box-shadow(0 2 0 0 $off-white inset, 0 1 2 0 rgba(0,0,0,0.1));
-	text-transform:uppercase;
-	letter-spacing:$letter-spacing;
+	//text-transform:uppercase;
+	//letter-spacing:$letter-spacing;
 	line-height:$base-line-height;
 	color:$off-white;
 	@include transition($link-transition);
@@ -114,12 +114,13 @@ input[type='submit'].button--large {
 	border:2px solid $link-color;
 	color:$link-color;
 	@include border-radius(6px);
-	text-transform:uppercase;
-	letter-spacing:$letter-spacing;
+	//text-transform:uppercase;
+	//letter-spacing:$letter-spacing;
 	display:block;
 	text-align:center;
 	background:transparent;
 	@include transition(all 1s ease);
+	background:rgba($off-white,.8);
 	&:hover {
 		background:$grey10;
 		color:$link-color-hover;
@@ -131,7 +132,22 @@ input[type='submit'].button--large {
 	}
 }
 
+p.faux-button--inline {
+	display:inline-block;
+	@include margin-bottom($a-scale--2);
+	a, a:visited {
+		margin-bottom:0;
+	}
+}
 
+.faux-button--larger {
+	a, a:hover {
+		text-transform: none;
+		letter-spacing:normal;
+		@include font-size($size-h3);
+
+	}
+}
 
 
 .faux-button--error a {

@@ -56,8 +56,8 @@ Modular Scale
 /* http://modularscale.com/scale/?px1=17&px2=13&ra1=1.618&ra2=0 */
 $ratio:1.618;
 $default:16; /* current accepted 'default' pixel size browsers use */
-$base-number:16;
-$important-number:13;
+$base-number:18;
+$important-number:15;
 
 /* $a-scale is based on $base-number */
 $a-scale:$base-number/$default; /* this is the base font size */

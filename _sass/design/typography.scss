@@ -139,6 +139,9 @@ abbr[title] {
 	@include font-size($size-small);
 }
 
+.subtitle {
+	font-style:italic;
+}
 
 ///// Fix text size in ios safari
 
