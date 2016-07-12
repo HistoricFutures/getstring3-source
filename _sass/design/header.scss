@@ -87,6 +87,7 @@
 	color:$off-white;
 	border:none;
 	position:absolute;
+	@include box-shadow(none);
 	a, a:visited {
 		color:$off-white;
 		&:hover, &:focus {

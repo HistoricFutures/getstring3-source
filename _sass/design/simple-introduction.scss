@@ -7,7 +7,7 @@
   text-align:center;
   position:relative;
   @include margin-top(-1 * $a-scale-5);
-  @include padding-top($a-scale-3);
+  @include padding-top($a-scale-4);
   color:$off-white;
   .next-arrow {
     position:absolute;
