@@ -15,9 +15,7 @@ This may include:
 1. information on how you use the site, using cookies and page tagging techniques to help us improve the website
 
 
-## Where your data is stored
-
-We store your data on our secure servers which are provided by Amazon Web Services, Inc. in an EU based data centre. By submitting your personal data, you agree to us storing this data.
+By submitting your personal data, you agree to us storing this data.
 
 ## Keeping your data secure
 
