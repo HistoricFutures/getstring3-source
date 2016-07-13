@@ -1,3 +1,3 @@
 <h2>Need visibility of your organisation’s supply chains?</h2>
-<p>Why not try String3 for free? You can ask 12 questions about your supply chains per year, completely free.</p>
-<p class="faux-button commit"><a href="https://app.getstring3.com/account/register/">Get Started</a></p>
+<p>Book a demo to chat through how String3 could work for you.</p>
+<p class="faux-button commit"><a href="/demo/" title="Book a demo">Book a demo</a></p>

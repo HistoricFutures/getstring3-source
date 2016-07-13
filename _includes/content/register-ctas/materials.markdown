@@ -1,7 +1,7 @@
 <h3>Not sure if it will work for your organsiation?</h3>
-<p>Why not try String3 for free? You can ask 12 questions about your supply chains per year, completely free.</p>
+<p>Book a live demo to talk it through with us.</p>
 <p class="faux-button commit register-button">
-	<a href="https://app.getstring3.com/account/register/">
-		Get Started
+	<a href="/demo/" title="Book a demo">
+		Book a demo
 	</a>
 </p>

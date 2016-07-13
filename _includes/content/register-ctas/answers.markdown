@@ -1,7 +1,7 @@
-<h3>Try out String3 for yourself</h3>
-<p>We think the best way to see how String3 works is just to try it. That's why you can use String3 to ask 12 questions about your supply chains per year, completely free.</p>
+<h3>See how String3 works</h3>
+<p>We'd love to talk through how String3 can work for your business.</p>
 <p class="faux-button commit register-button">
-		<a href="https://app.getstring3.com/account/register/">
-			Get Started
+		<a href="/demo/" title="Book a demo">
+			Book a demo
 		</a>
 	</p>

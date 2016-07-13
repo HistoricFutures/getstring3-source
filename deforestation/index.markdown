@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  Worried about deforestation in your supply chains?
-strap: Use String3 to zoom in on the products that place your brand at the most risk. It's free.
+strap: Use String3 to zoom in on the products that place your brand at the most risk. 
 issueIntro: "Many consumers are concerned that the wood they buy causes environmental damage through deforestation and its wider effects: loss of communities, carbon emissions and the emergence of monocultures of soy or palm oil."
 issueBody: |
   Many products are wood-based and their supply-chains contain hidden reputational risks: Paper, Viscose, Latex, Furniture or cellophane, for example.

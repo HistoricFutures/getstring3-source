@@ -14,11 +14,9 @@ String3 has now been launched! Your customers may start sending you new question
 
 
 <div class="register">
-<h3>Sign up for the live String3 service</h3>
-<p>Are you a brand, retailer, or supplier and want to find out where the products you sell come from? Why don’t you register for String3 and start a 30 day free trial today.</p>
+<h3>Get started on the live String3 service</h3>
+<p>Are you a brand, retailer, or supplier and want to find out where the products you sell come from? If you request a demo, we can talk to you about how String3 might work for your organisation.</p>
 <p class="button register-button">
-		<a href="https://app.getstring3.com/account/register/">
-			Get Started
-		</a>
+		<a href="/demo/" title="Book a demo">Book a demo</a>
 	</p>
   </div>
