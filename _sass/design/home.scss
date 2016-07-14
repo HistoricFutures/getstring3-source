@@ -189,9 +189,16 @@
       @include border-radius(50%);
 
       @include box-shadow-standard();
-      border:2px solid $grey10;
+      border:2px solid $yellow;
       @include margin-bottom($a-scale);
       max-width:300px;
+      @include transition($link-transition);
+    }
+    a:hover, a:focus {
+      img {
+        border:2px solid $pink;
+        @include transition($link-transition);
+      }
     }
     .featured-1 {
       @include gs-span(l,1,4);
