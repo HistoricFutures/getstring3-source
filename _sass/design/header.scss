@@ -24,15 +24,13 @@
 			@include margin-left($a-scale--2);
 		}
 	}
+
 	.exposed {
 
 
 		position:absolute;
 		right:110px;
 		top:1px;
-		.login {
-			@extend .uppercase;
-		}
 
 		li {
 			@include font-size($size-small);
@@ -119,12 +117,22 @@
 		ul {
 			@include gs-span(l,9,11,(8,12));
 			clear:left;
+			padding-left:0;
 			.logo-holder {
 				@include gs-span(l,9,9,(9,11));
 			}
 		}
 		ul + ul {
 			@include margin-bottom($a-scale-4);
+		}
+		.email {
+			@include gs-span(l,9,11,(8,12));
+			clear:left;
+			border-bottom:0;
+			@include font-size($b-scale);
+			i {
+				color:$grey40;
+			}
 		}
 		overflow:hidden;
 		width:0;
@@ -177,7 +185,7 @@
 		z-index:$secondtop;
 		right:-95%;
 		@include padding-top($b-scale-5);
-		ul {
+		ul, .email {
 			@include gs-span(s,2,5);
 			.logo-holder {
 				display:none;

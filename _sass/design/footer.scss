@@ -6,13 +6,16 @@
 	border-right:0;
 	background:$off-white;
 	.primary {
-		@include gs-span(l,3,5);
+		@include gs-span(l,3,6);
 		.logo-holder {
-			@include gs-span(l,3,3,(3,5));
+			@include gs-span(l,3,3,(3,6));
 		}
 	}
 	.secondary {
-		@include gs-span(l,7,8);
+		@include gs-span(l,7,10);
+		ul {
+			padding-left:0;
+		}
 	}
 	.hf {
 		@include gs-span(l,9,10);
@@ -26,21 +29,15 @@
 	}
 
 	.email {
-		@include gs-span(l,all);
-		clear:both;
+		border:none;
 		@include margin-top($a-scale-2);
-		@include box-shadow-standard();
-		border-left:none;
-		border-right:none;
-		@include padding-top($a-scale);
-		@include padding-bottom($a-scale);
-		text-align: center;
+
+		@include font-size($b-scale);
+
 		.fa {
 			color:$grey40;
 		}
-		a, a:visited {
-			border:none;
-		}
+
 	}
 }
 
@@ -54,14 +51,19 @@
 	@include padding-bottom($a-scale-3);
 	@include font-size($b-scale-2);
 	@include box-shadow-standard();
+	border-color:darken($yellow, 2%);
 	border-left:none;
 	border-right:none;
-	background:$off-white;
+	background:$yellow;
 
 	.next-page--holder__inner {
 		@include gs-span(l,2,11);
-		a {
+		a, a:visited {
 			border:none;
+			color:$grey90;
+			&:hover, &:focus {
+				color:$pink;
+			}
 		}
 	}
 }
@@ -71,7 +73,7 @@
 	li {
 		clear:left;
 		@include margin-bottom($b-scale-2);
-	}
+
 	a, a:visited {
 		border-bottom:0;
 		color:$text-color;
@@ -100,6 +102,7 @@
 		}
 
 	}
+}
 	.active {
 		a, a:visited {
 			color:$active-color;
@@ -122,20 +125,20 @@
 
 	}
 	.get-started {
-		text-align:center;
+		text-align:left;
 		a, a:visited {
-			background:$yellow;
-			display:block;
+			background:$off-white;
+			display:inline-block;
 			@include padding($b-scale);
 			@include box-shadow-standard();
-			@extend .uppercase;
-			color:$grey90;
-			@include font-size($b-scale);
-			@include margin-top($a-scale-2);
+
+			color:$link-color;
+			//@include font-size($b-scale);
+			margin-top:0;
 			@include border-radius(6px);
-			border:2px solid $grey90;
+			border:2px solid $link-color;
 			&:hover, &:focus {
-				background-color:$link-color;
+				background-color:$link-color-hover;
 				color:$off-white;
 			}
 			&:before {
@@ -148,8 +151,7 @@
 		@include margin-bottom($a-scale-2);
 	}
 	.login {
-		@extend .uppercase;
-		@include font-size($b-scale);
+		//@include font-size($b-scale);
 		a, a:visited {
 			color:$link-color;
 		}

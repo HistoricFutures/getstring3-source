@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  Worried about conflict minerals in your supply chains?
-strap: Use String3 to zoom in on the products that place your brand at the most risk. It's free.
+strap: Use String3 to zoom in on the products that place your brand at the most risk.
 issueIntro: Many consumers are concerned about the minerals contained within the things they buy. Some mineral mining can cause environmental damage, exploit child labour or abuse its workforce.
 issueBody: |
   If you are selling electronic devices, jewellery or building materials you may well be at risk.
@@ -22,7 +22,7 @@ solutionBody: |
   * Demonstrate effective scrutiny for compliance
 
   * Communicate publicly with confidence
-  
+
 nextText: "How does String3 work?"
 nextLink: "/features"
 class: conflict-minerals

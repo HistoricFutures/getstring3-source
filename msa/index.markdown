@@ -1,7 +1,7 @@
 ---
 layout: issue
 title:  Worried about modern day slavery in your supply chains?
-strap: Use String3 to zoom in on the products that place your brand at the most risk. It's free.
+strap: Use String3 to zoom in on the products that place your brand at the most risk.
 issueIntro: Since March 2015, UK companies over £75 million turnover have a legal obligation to declare what steps they have taken to ensure that slavery and human trafficking is not taking place in its business or supply chains.
 issueBody: |
   If you are affected, a pragmatic startpoint is to assess whether your products are being produced in high risk locations.
