@@ -5,6 +5,8 @@
 	border-left:0;
 	border-right:0;
 	background:$off-white;
+	position:relative;
+	z-index:$secondlow;
 	.primary {
 		@include gs-span(l,3,6);
 		.logo-holder {
@@ -213,7 +215,7 @@
 	@include gs-span(l,all);
 	@include padding-bottom($a-scale);
 	position:relative;
-	z-index:$bottom;
+	z-index:$low;
 	background:$off-white;
 	@include padding-top($a-scale-2);
 	.inner {

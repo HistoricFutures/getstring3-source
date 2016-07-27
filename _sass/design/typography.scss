@@ -184,3 +184,25 @@ abbr[title] {
 	li ol.decimals > li:before {
 	  content: counters(item, ".") " ";
 	}
+
+
+	/// checks list
+
+	.checks {
+		li {
+			list-style: none;
+			position: relative;
+			&:before {
+				content: "\f00c";
+				display: block;
+			  font: normal normal normal 14px/1 FontAwesome;
+			  font-size: inherit;
+			  text-rendering: auto;
+			  -webkit-font-smoothing: antialiased;
+			  -moz-osx-font-smoothing: grayscale;
+				position:absolute;
+				left:-30px;
+				top:4px;
+			}
+		}
+	}
