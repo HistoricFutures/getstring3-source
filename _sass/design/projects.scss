@@ -1,7 +1,7 @@
 .projects-brands {
   background:$yellow;
   position:relative;
-  min-height:440px;
+
   @include margin-bottom($a-scale-3);
   @include margin-top($a-scale-3);
 }
@@ -10,14 +10,14 @@
   @include gs-span(l,all);
 }
 .projects-brands__image {
-  width:31.33333%;
+  width:40%;
   position:absolute;
   bottom:0;
-  left:5%;
+  left:2%;
   img {
     display:table;
-    max-height:400px;
-    max-width:(1920/1440)*400 + px;
+    max-height:500px;
+    max-width:(1920/1440)*500 + px;
   }
 }
 
@@ -38,11 +38,11 @@
   clear:left;
   a, a:visited {
     display:block;
-    transition: transform 1s ease;
+    transition: transform 0.5s ease;
     transform:rotate(0deg);
     &:hover, &:focus {
-      transform:rotate(360deg);
-      transition: transform 1s ease;
+      transform:rotate(1deg);
+      transition: transform 0.3s ease;
     }
   }
 }
@@ -51,6 +51,17 @@
   @include gs-span(l,6,10,(3,10));
 }
 
+@media only screen and (min-width:1340px){
+  .projects-brands {
+    min-height:490px;
+  }
+}
+
+@media only screen and (min-width:1580px){
+  .projects-brands {
+    min-height:540px;
+  }
+}
 
 @include gs-media(s,max){
   .projects-brands {
@@ -58,19 +69,21 @@
   }
   .projects-brands__image {
     width:100%;
-
+    img {max-height:100%; max-width:100%;}
   }
   .projects-brands__text {
     @include gs-span(s,all);
     clear:left;
+    @include gs-pad(s,padinfull);
   }
 
   .project__image {
     @include gs-span(s,1,3);
-    @include margin-bottom($a-scale)
+    @include margin-bottom($a-scale);
   }
   .project__text {
     @include gs-span(s,all);
     clear:left;
+
   }
 }
