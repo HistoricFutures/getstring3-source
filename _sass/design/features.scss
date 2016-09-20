@@ -2,7 +2,7 @@
 .features-intro {
   text-align:center;
   @include gs-span(l,3,10);
-  @include padding-top($a-scale-4);
+  
   @include padding-bottom($a-scale-4);
 
   h1 {
