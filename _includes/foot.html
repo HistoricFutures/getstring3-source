@@ -4,6 +4,7 @@
             <nav class="main-nav">
               <ul class="primary">
                 <li class="logo-holder"><a class="s3-logo" href="/">String3</a></li>
+                <li{% if page.url == '/about/' %} class="active"{% endif %}><a href="/about">About</a></li>
                 <li{% if page.url == '/features/' %} class="active"{% endif %}><a href="/features">Features</a></li>
                 <li{% if page.url == '/projects/' %} class="active"{% endif %}><a href="/projects">Projects</a></li>
                 <!--<li{% if page.url == '/solutions/' %} class="active"{% endif %}><a href="/solutions">Solutions</a></li>-->
@@ -17,6 +18,7 @@
                 <!--<li{% if page.url == '/why/' %} class="active"{% endif %}><a href="/why">Why choose String3?</a></li>
                 <li{% if page.url == '/materials/' %} class="active"{% endif %}><a href="/materials">Which materials will String3 work for?</a></li>
                 <li{% if page.url == '/faqs/' %} class="active"{% endif %}><a href="/faqs">Frequently asked questions</a></li>-->
+                <li{% if page.url == '/webinar/' %} class="active"{% endif %}><a href="/webinar">Webinars</a></li>
                 <li{% if page.url == '/security/' %} class="active"{% endif %}><a href="/security">Security</a></li>
                 <li{% if page.url == '/terms_and_conditions/' %} class="active"{% endif %}><a href="/terms_and_conditions">Terms &amp; Conditions</a></li>
                 <li{% if page.url == '/privacy/' %} class="active"{% endif %}><a href="/privacy">Privacy</a></li>
@@ -58,7 +60,7 @@
     // Target your .container, .wrapper, .post, etc.
 
     $(".video").fitVids();
-    
+
   });
       </script>
       <!-- Google Analytics -->

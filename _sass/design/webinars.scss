@@ -26,6 +26,10 @@
   background: url(#{$img-path}risk.jpeg) top left no-repeat;
   background-size:cover;
 }
+.world-stars {
+  background: url(#{$img-path}world-stars.jpg) center center no-repeat;
+  background-size:cover;
+}
 
 .webinar-inner {
   @include gs-span(l,3,8);

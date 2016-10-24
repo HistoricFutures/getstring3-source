@@ -167,7 +167,7 @@ p.faux-button--inline {
 .header .exposed .faux-button--small a {
 	@include padding($b-scale);
 	line-height:1;
-	border-bottom: 2px solid $link-color;
+	border-bottom: 2px solid $text-color;
 	&:hover {
 		border-color:$link-color-hover;
 	}
