@@ -24,5 +24,3 @@ collections:
     output: false
 sass:
     sass_dir: _sass
-gems:
-- jekyll-compass
